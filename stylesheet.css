@@ -1,0 +1,580 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+.top_wrapper img{
+  width: 100%;
+}
+
+.counseling{
+  margin-top: 0;
+  background-image: url(image/background136.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width:100%;
+  text-align: center;
+  color:white;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+ .counseling h1{
+   font-size: 2.0rem;
+   padding-bottom: 20px;
+   color:#FF00FF;
+ }
+
+ .counseling p{
+   font-size: 1.5rem;
+   color:black;
+   font-weight: bold;
+   margin-bottom: 40px;
+ }
+
+.counseling a{
+  background-color: #7DD706;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.0rem;
+  border-radius: 10px;
+}
+
+.step{
+  margin-top: 60px;
+  margin-bottom: 100px;
+
+}
+.step h1{
+  color: #FF00FF;
+  font-size:2.0rem;
+  text-align: center;
+}
+
+.step_contents{
+  text-align: center;
+}
+
+
+.number{
+  background-color: #FF00FF;
+  color: white;
+  width: 60%;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding:10px 0 10px 0;
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+
+.step_title{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.step_text{
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.step_img{
+  width:150px;
+  padding:20px 0;
+}
+
+
+
+.recomend{
+  background-image: url(image/saide2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  margin-bottom: 100px;
+}
+
+.recomend h1{
+  text-align: center;
+  font-size: 2.0rem;
+  color: #FF00FF;
+  padding-bottom: 40px;
+}
+
+.recomend_contents{
+  text-align: center;
+}
+
+.recomend_contents p{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.recomend_text{
+  line-height: 80px;
+  padding-top: 30px;
+}
+
+.recomend_text2 {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #FF00FF;
+  display: inline-block;
+}
+
+.recomend_text3{
+  line-height: 40px;
+}
+
+
+.prof h1{
+  text-align: center;
+  font-size: 2.0rem;
+  color: #FF00FF;
+  padding-bottom: 40px;
+}
+
+.prof_contents{
+  text-align: center;
+  background-image: url(image/IMG_9910.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+  margin-bottom: 100px;
+}
+
+.prof_contents p{
+  padding-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.history h1{
+  text-align: center;
+  font-size: 2.0rem;
+  color: #FF00FF;
+  padding-bottom: 40px;
+}
+
+.history_contents {
+  text-align: center;
+}
+
+.history_contents p{
+  line-height: 80px;
+  font-size: 1.3rem;
+  margin-bottom: 60px;
+}
+
+.history_contents img{
+  padding-bottom: 60px;
+}
+
+.history_contents2 {
+  text-align: center;
+}
+
+.history_contents2 p{
+  line-height: 80px;
+  font-size: 1.3rem;
+  margin-bottom: 60px;
+}
+
+.history_contents2 img{
+  width:550px;
+  padding-bottom: 60px;
+}
+
+.history_contents2 h2{
+  font-size: 1.2rem;
+  color: #FF00FF;
+  line-height: 40px;
+  margin-bottom: 100px;
+}
+
+.consal_contents{
+  margin-left: 30px;
+}
+
+.consal_contents ul li{
+  list-style: none;
+}
+
+.icon3{
+display: flex;
+
+}
+
+.icon3 p{
+  line-height: 120px;
+}
+
+.icon3 img{
+  width:100px;
+  height:100px;
+}
+
+.consal_contents_woman{
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  font-size: 15px;
+  background-color: #f0bdd3;
+  border-radius: 20px;
+  position: relative;
+  margin: 20px 0 30px 0;
+}
+
+.consal_contents_woman:before{
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 10%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #f0bdd3;
+}
+
+
+.q_and_a{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-image: url(image/zoom_fukuoka.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.q_and_a h1{
+  text-align: center;
+  font-size: 2.0rem;
+  color: #FF00FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.q_and_a_contents{
+  width: 80%;
+  margin: 0 auto;
+}
+.q_and_a_contents p{
+  margin: 0 30px;
+  font-size: 1.5rem;
+}
+
+.question{
+  padding-bottom: 20px;
+}
+.question span{
+  color:#000080;
+  padding-right: 10px;
+}
+
+.answer{
+  padding-bottom: 50px;
+}
+.answer span{
+  color:red;
+  padding-right: 10px;
+}
+
+
+@media (min-width:768px){
+  .counseling{
+    height:400px;
+  }
+
+  .counseling h1{
+    font-size: 3.0rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .counseling p{
+    font-size:2.0rem;
+    padding-bottom: 40px;
+  }
+  .counseling a{
+    padding: 20px;
+    font-size: 2.3rem;
+    border-radius: 10px;
+  }
+
+  .recomend_contents p{
+    font-size: 1.8rem;
+  }
+
+  .recomend_text3{
+    padding-top: 40px;
+  }
+
+  .prof h1{
+    font-size: 2.5rem;
+  }
+
+  .prof_contents p{
+    font-size: 1.8rem;
+    line-height: 70px;
+  }
+
+  .history_contents p{
+    font-size: 1.5rem;
+  }
+
+  .history_contents2 p{
+    font-size: 1.5rem;
+  }
+
+  .history_contents2 h2{
+    font-size: 1.5rem;
+  }
+
+  .consal_contents{
+    width:80%;
+    margin: 0 auto;
+  }
+
+  .icon3 p{
+    font-size: 1.5rem;
+  }
+
+  .icon3 img{
+    width:100px;
+    height:100px;
+  }
+
+  .consal_contents_woman p{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .consal_contents_man p{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width:1200px){
+  .step_contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+
+  .consal_contents {
+    width:70%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+a{
+  text-decoration: none;
+}
