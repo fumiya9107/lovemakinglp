@@ -501,6 +501,10 @@ display: flex;
     border-radius: 10px;
   }
 
+  .recomend h1{
+    font-size: 2.5rem;
+  }
+
   .recomend_contents p{
     font-size: 1.8rem;
   }
